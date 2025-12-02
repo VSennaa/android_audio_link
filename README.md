@@ -17,7 +17,7 @@ O AudioDroid requer os binários do scrcpy para funcionar.
     *Exemplo:* `D:\scrcpy-win64-v3.3.2`
 
 ### 2. Executando o AudioDroid
-1.  Execute o arquivo **`scycrp_aud_gui.exe`**.
+1.  Execute o arquivo [**`scycrp_aud_gui.exe`**](https://github.com/VSennaa/audio_droid_gui/releases/download/1.1/scycrp_aud_gui.exe).
 2.  **Primeira Execução**: O programa pedirá para selecionar a **pasta raiz** onde você extraiu o scrcpy.
     * O sistema valida automaticamente a existência de `scrcpy.exe` e `adb.exe`.
 3.  Um arquivo `config.json` será gerado para salvar o caminho e suas preferências de IP/Porta.
