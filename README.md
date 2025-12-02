@@ -14,7 +14,7 @@ O AudioDroid requer os binários do scrcpy para funcionar.
     [https://github.com/Genymobile/scrcpy/releases/tag/v3.3.2](https://github.com/Genymobile/scrcpy/releases/tag/v3.3.2)
 2.  **Extração**:
     Extraia a pasta do scrcpy em um local seguro do seu computador.
-    *Exemplo:* `C:\scrcpy-win64-v3.3.2`
+    *Exemplo:* `D:\scrcpy-win64-v3.3.2`
 
 ### 2. Executando o AudioDroid
 1.  Execute o arquivo **`scycrp_aud_gui.exe`**.
@@ -31,7 +31,11 @@ O AudioDroid requer os binários do scrcpy para funcionar.
 
 #### Ações
 * **Conexão Rápida:** Tenta conectar no IP/Porta definidos e abre o áudio imediatamente.
-* **Parear:** Inicia o pareamento ADB (necessário para o primeiro acesso wireless).
+* **Parear:** Inicia o pareamento ADB (Wireless).
+  > ⚠️ **Atenção:** O pareamento via interface ainda não está totalmente concluído. Caso falhe, realize o processo manualmente via terminal (CMD/Powershell) na pasta do scrcpy:
+  > ```bash
+  > adb pair HOST[:PORT] [PAIRING CODE]
+  > ```
 * **Conexão Manual:** Permite forçar conexão em IP específico.
 * **Fechar Conexão:** Desconecta o ADB e encerra o processo do scrcpy, mantendo a janela aberta.
 
